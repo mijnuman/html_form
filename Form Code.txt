@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+</head>
+<body>
+	<center><h1>Welcome to Skill and Tecnology Student's Application Form</h1></center>
+	<br>
+	<fieldset>
+	<legend><h2>Application Form</h2></legend>
+	<form>
+	<label for="fname">First Name:</label>
+	<input type="text" id="fname" placeholder="First Name">
+	&nbsp;
+	<label for="lname">Last Name:</label>
+	<input type="text" id="lname" placeholder="Last Name">
+	<br><br>
+	<label for="mail">Email:</label>
+	<input type="text" id="mail" placeholder="Email ID">
+		<br><br>
+	<label for="age">Date of Birth:</label>
+	<input type="Date" id="age" placeholder="Date of Birth">
+	<br><br>
+	<label>Gender:</label>
+	    &nbsp;
+	<label for="male">Male</label>
+	<input type="radio" id="male" name="Gender">
+		&nbsp;
+	<label for="fmale">Female</label>
+	<input type="radio" id="fmale" name="Gender">
+			&nbsp;
+	<label for="custom">Custom</label>
+	<input type="radio" id="custom" name="Gender">
+	<br><br>
+	<label for="passwd">Password:</label>
+	<input type="password" id="passwd" placeholder="Password">
+	<br><br>
+	<label for="cpasswd">Confirm Password:</label>
+	<input type="password" id="cpasswd" placeholder="Confirm Password">
+	<br><br>
+    <label for="photo">Upload Photo:</label>
+    <input type="file" id="photo">
+	<br><br>
+	<input type="Search" placeholder="Search">
+	<input type="Submit" value="Search">
+	<br><br>
+	<input type="Submit">
+	<form>
+</fieldset>
+</body>
+</html>
